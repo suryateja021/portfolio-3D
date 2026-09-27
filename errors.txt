@@ -1,0 +1,5 @@
+﻿src/components/canvas/BackgroundScene.tsx(35,18): error TS2741: Property 'args' is missing in type '{ attach: string; count: number; array: Float32Array<ArrayBuffer>; itemSize: number; }' but required in type 'Mutable<Overwrite<Partial<Overwrite<BufferAttribute<BufferAttributeEventMap>, MathProps<BufferAttribute<BufferAttributeEventMap>> & ReactProps<...>>>, Omit<...>>>'.
+src/components/layout/Footer.tsx(2,10): error TS2305: Module '"lucide-react"' has no exported member 'Github'.
+src/components/layout/Footer.tsx(2,18): error TS2305: Module '"lucide-react"' has no exported member 'Linkedin'.
+src/components/layout/Footer.tsx(2,28): error TS2305: Module '"lucide-react"' has no exported member 'Twitter'.
+src/components/sections/Projects.tsx(2,10): error TS2305: Module '"lucide-react"' has no exported member 'Github'.

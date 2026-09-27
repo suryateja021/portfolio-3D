@@ -1,0 +1,4 @@
+﻿src/components/sections/Skills.tsx(121,71): error TS1127: Invalid character.
+src/components/sections/Skills.tsx(121,92): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/sections/Skills.tsx(121,93): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/sections/Skills.tsx(125,30): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
