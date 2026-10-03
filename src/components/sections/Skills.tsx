@@ -87,12 +87,12 @@ const skillCategories = [
         ]
     },
     {
-        title: "Core Skills",
+        title: "Personal Skills",
         icon: Workflow,
         color: "from-cyan-500 to-blue-400",
         glow: "group-hover:shadow-[0_0_30px_rgba(6,182,212,0.3)] group-hover:border-cyan-500/30",
         skills: [
-            { name: "Problem Solving" }, { name: "Code Optimization" }, { name: "Version Control" }, { name: "Debugging" }
+            { name: "Analytical Thinking" }, { name: "Quick Learner" }, { name: "Adaptable" }, { name: "Works Under Pressure" }
         ]
     }
 ];

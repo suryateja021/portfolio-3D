@@ -10,9 +10,9 @@ const LinkedinIcon = ({ size = 20 }: { size?: number }) => (
         <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect width="4" height="12" x="2" y="9" /><circle cx="4" cy="4" r="2" />
     </svg>
 );
-const TwitterIcon = ({ size = 20 }: { size?: number }) => (
-    <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
+const LeetcodeIcon = ({ size = 20 }: { size?: number }) => (
+    <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
+        <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114l5.727-6.128A1.375 1.375 0 0 0 13.483 0zm-2.856 15.315H21.5c.762 0 1.38-.618 1.38-1.38s-.618-1.38-1.38-1.38H10.627c-.762 0-1.38.618-1.38 1.38s.618 1.38 1.38 1.38z" />
     </svg>
 );
 
@@ -26,8 +26,8 @@ const footerLinks = [
 
 const socialLinks = [
     { name: "GitHub", icon: GithubIcon, href: "https://github.com/suryateja021", color: "hover:bg-white hover:text-black hover:border-white" },
-    { name: "LinkedIn", icon: LinkedinIcon, href: "#", color: "hover:bg-blue-600 hover:border-blue-600" },
-    { name: "Twitter", icon: TwitterIcon, href: "#", color: "hover:bg-sky-500 hover:border-sky-500" },
+    { name: "LinkedIn", icon: LinkedinIcon, href: "https://www.linkedin.com/in/suryateja021", color: "hover:bg-blue-600 hover:border-blue-600" },
+    { name: "Leetcode", icon: LeetcodeIcon, href: "https://leetcode.com/u/suryateja021/", color: "hover:bg-amber-600 hover:border-amber-600" },
 ];
 
 export default function Footer() {
@@ -38,7 +38,7 @@ export default function Footer() {
                     {/* Brand */}
                     <div className="flex flex-col items-center md:items-start">
                         <Link href="/" className="font-orbitron font-bold text-2xl tracking-wider text-white mb-3">
-                            SURYA<span className="text-rose-500">.</span>TEJA
+                            SURYA<span className="text-rose-500"></span>TEJA
                         </Link>
                         <p className="font-inter text-gray-500 text-sm font-light max-w-xs text-center md:text-left">
                             Crafting immersive, cinematic digital experiences with modern web technologies.
@@ -87,7 +87,7 @@ export default function Footer() {
                         © {new Date().getFullYear()} Surya Teja. All rights reserved.
                     </p>
                     <p className="font-inter text-xs text-gray-600">
-                        Designed & Built with <span className="text-rose-500">♥</span> using Next.js, Three.js & Framer Motion
+                        Designed & Built <span className="text-rose-500"></span> using Next.js, Three.js & Framer Motion
                     </p>
                 </div>
             </div>

@@ -85,19 +85,10 @@ export default function About() {
                     </h2>
 
                     <div className="space-y-6 text-gray-400 font-inter text-lg font-light leading-relaxed mb-10">
-                        <p>
-                            I am a dedicated Frontend and Full Stack Developer fueled by the relentless pursuit of building exceptional digital experiences. By merging robust architectural design with stunning cinematic interfaces, I construct applications that are as intelligent as they are beautiful.
+                        <p className="text-base md:text-lg">
+                            I’m a Computer Science student and aspiring Software Developer with hands-on experience building full-stack web applications and REST APIs using React, TypeScript, Python, FastAPI, and PostgreSQL. I enjoy building responsive, scalable applications and solving real-world problems through code. I’m currently seeking a software development, frontend, or full-stack internship or entry-level opportunity to contribute, learn, and grow.
                         </p>
 
-                        <div className="glass-panel p-6 rounded-xl border border-white/5">
-                            <h3 className="text-white font-orbitron font-semibold mb-2">🎓 Education</h3>
-                            <p className="text-sm text-gray-400">Pursuing a Bachelor of Technology in Computer Science & Engineering. Passionate about participating in dynamic technical hackathons and pushing the boundaries of AI integration in modern web applications.</p>
-                        </div>
-
-                        <div className="glass-panel p-6 rounded-xl border border-white/5">
-                            <h3 className="text-white font-orbitron font-semibold mb-2">🎯 Current Focus</h3>
-                            <p className="text-sm text-gray-400">Deepening expertise in Full Stack architectures with Next.js & React 19, mastering WebGL via Three.js, and integrating performant AI inference workflows directly into user interfaces.</p>
-                        </div>
                     </div>
 
                 </motion.div>

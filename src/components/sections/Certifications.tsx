@@ -5,9 +5,9 @@ import { Award, ShieldCheck, BadgeCheck, BrainCircuit } from "lucide-react";
 
 const certs = [
     {
-        name: "Introduction to Cybersecurity",
-        issuer: "Cisco",
-        date: "2023",
+        name: "Software Development",
+        issuer: "Datacom",
+        date: "2026",
         icon: ShieldCheck,
         color: "from-amber-500 to-orange-500",
         glow: "group-hover:shadow-[0_0_25px_rgba(245,158,11,0.25)]",
@@ -15,7 +15,7 @@ const certs = [
     {
         name: "Modern AI",
         issuer: "Cisco",
-        date: "2024",
+        date: "2025",
         icon: BrainCircuit,
         color: "from-rose-500 to-pink-500",
         glow: "group-hover:shadow-[0_0_25px_rgba(244,63,94,0.25)]",
@@ -23,15 +23,15 @@ const certs = [
     {
         name: "Agentforce Certification",
         issuer: "Salesforce",
-        date: "2024",
+        date: "2025",
         icon: BadgeCheck,
         color: "from-blue-500 to-cyan-500",
         glow: "group-hover:shadow-[0_0_25px_rgba(59,130,246,0.25)]",
     },
     {
-        name: "Full Stack Development",
-        issuer: "Infosys Springboard",
-        date: "2023",
+        name: "Front-End Software Engineering",
+        issuer: "Skyscanner",
+        date: "2026",
         icon: Award,
         color: "from-green-500 to-emerald-500",
         glow: "group-hover:shadow-[0_0_25px_rgba(34,197,94,0.25)]",
